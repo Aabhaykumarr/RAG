@@ -8,3 +8,18 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Vector store data (regenerated at runtime)
+data/vector_store/
+faiss_store/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
